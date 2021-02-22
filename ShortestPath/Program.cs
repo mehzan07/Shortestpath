@@ -47,8 +47,6 @@ class MainClass
                 conlines[i - NrOfNodes-1] = strArr[i];
         }
         // find connetion from FirstNode to LastNode
-        
-       //for(int j=0; j<len-NrOfNodes; j++ )
        for (int j = 0; j < len - NrOfNodes-1; j++)
             {
             if (conlines[j].Contains(firstNode + "-" + lastNode))
